@@ -1,0 +1,118 @@
+/* IE below 8 */
+
+#nav {	
+	text-align:center;
+}
+
+
+#nav .outer_ul{
+	width:960px;
+	margin: 0 auto;
+}
+
+.ie5 .outer_ul{
+	margin:0 !important;
+}
+
+#nav .outer_li{
+	display:inline;
+	display:inline-block;
+	width:16.66%;
+	float:left;
+}
+
+#nav .outer_li.hover{
+	background:rgb(255, 166, 6) !important;
+}
+
+#nav .outer_li.hover .w_div{
+	overflow:auto;	
+	display:block !important;
+}
+
+#nav .outer_a{
+	width:100%;
+	height:100%;
+	text-align:center;
+	color:white;
+	text-decoration:none;
+	font-size:1.2em;
+	display:block;	
+	padding:10px 0;
+}
+
+#nav .w_div{
+	display:none;
+	overflow:visible;
+}
+
+#nav .w_div ul{
+	margin-left:-200px;
+	width:400px;
+	position:absolute;
+}
+.ie7 ul ul{
+	position:relative !important;
+	margin:0 !important;
+	width:100% !important;
+}
+
+#nav li li{
+	display: inline !important;
+}
+
+#nav .nav_i{
+	display:none;
+}
+
+
+
+#iSlider{
+	width:900px;
+	height:300px;
+	padding:0;
+}
+
+#wrapin {
+	width:900px;
+}
+
+#content{
+	width:960px ;
+	text-align:center;
+}
+
+#content .dingDong{
+	padding: 3% !important;
+}
+
+#content .width-37{
+	width: 31% !important;
+}
+
+.ie5 #content .width-37{
+	width:37% !important;
+}
+
+#content .width-60{
+	width: 54% !important;
+}
+
+.ie5 #content .width-60{
+	width:60% !important;
+}
+
+#content .width-100{
+	width: 94% !important;
+}
+.ie5 #content .width-100{
+	width:100% !important;
+}
+
+#footer{
+	padding:0;
+}
+.f_167{
+	width:25%;
+}
+
